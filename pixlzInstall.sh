@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Welcome to Pixlz."
+echo "Welcome to NadekoBot."
 root=$(pwd)
 echo ""
 choice=5
@@ -8,9 +8,9 @@ choice=5
 	echo "2. Install pm2."
 	echo "3. Run Pixlz with pm2. Please use 2 first."
 	echo "4. Exit"
-        echo "Please edit the config.py file before running."
+    echo "Please edit config.py before trying to run."
 	echo -n "Choose [1] to Download, [2] to Run, [3] for pm2 startup or [4] to Exit."
-while [ $choice -eq 5 ]; do
+while [ $choice -eq 9 ]; do
 read choice
 if [ $choice -eq 1 ] ; then
 
@@ -43,13 +43,14 @@ else
 						cd "$root"
 						exit 0
 						else
-							clear
-								echo "1. Download Pixlz."
-	                            echo "2. Install pm2."
-	                            echo "3. Run Pixlz with pm2. Please use 2 first."
-	                            echo "4. Exit"
-                                echo -n "Choose [1] to Download, [2] to Run, [3] for pm2 startup or [4] to Exit."
-							choice=5
+                            clear
+                            echo "1. Download Pixlz."
+                            echo "2. Install pm2."
+                            echo "3. Run Pixlz with pm2. Please use 2 first."
+                            echo "4. Exit"
+                            echo "Please edit config.py before trying to run."
+                            echo -n "Choose [1] to Download, [2] to Run, [3] for pm2 startup or [4] to Exit."
+                            choice=5
 						fi 
 					fi
 				fi
