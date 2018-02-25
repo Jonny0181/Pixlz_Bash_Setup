@@ -42,15 +42,7 @@ else
 						echo "Exiting..."
 						cd "$root"
 						exit 0
-						else
-                            clear
-                            echo "1. Download Pixlz."
-                            echo "2. Install pm2."
-                            echo "3. Run Pixlz with pm2. Please use 2 first."
-                            echo "4. Exit"
-                            echo "Please edit config.py before trying to run."
-                            echo -n "Choose [1] to Download, [2] to Run, [3] for pm2 startup or [4] to Exit."
-                            choice=5
+						clear
 						fi 
 					fi
 				fi
