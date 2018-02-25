@@ -1,5 +1,6 @@
 #!/bin/sh
 
+clear
 echo "Welcome to Pixlz."
 root=$(pwd)
 echo ""
