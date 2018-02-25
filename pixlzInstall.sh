@@ -44,11 +44,8 @@ else
 						cd "$root"
 						exit 0
 						clear
-						fi 
 					fi
-				fi
 			fi
-		fi
 	fi
 done
 
