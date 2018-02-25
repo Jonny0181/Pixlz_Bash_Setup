@@ -57,6 +57,3 @@ else
 	fi
 fi
 done
-
-cd "$root"
-exit 0
