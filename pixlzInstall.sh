@@ -8,8 +8,9 @@ choice=5
 	echo "2. Install pm2."
 	echo "3. Run Pixlz with pm2. Please use 2 first."
 	echo "4. Exit"
+        echo "Please edit the config.py file before running."
 	echo -n "Choose [1] to Download, [2] to Run, [3] for pm2 startup or [4] to Exit."
-while [ $choice -eq 9 ]; do
+while [ $choice -eq 5 ]; do
 read choice
 if [ $choice -eq 1 ] ; then
 
