@@ -47,7 +47,6 @@ else
 					fi
 				fi
 			fi
-	fi
 done
 
 cd "$root"
